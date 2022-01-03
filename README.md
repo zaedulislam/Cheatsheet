@@ -4,7 +4,7 @@
 
    Windows                      | Linux                         | Google Colaboratory 
 -------------                   | -------------                 | ------------
-python -V or python --version   | python -V or python --version | !python -V or !python --version 
+`python -V` or `python --version`   | `python -V` or `python --version` | `!python -V` or `!python --version`
 
 
 
@@ -15,7 +15,20 @@ python -V or python --version   | python -V or python --version | !python -V or 
 
    Windows                      | Linux                         | Google Colaboratory 
 -------------                   | -------------                 | ------------
-Pending                         | conda -V or conda --version   | Pending
+Pending                         | `conda -V` or `conda --version`   | Pending
+
+
+# OpenCV (Open Source Computer Vision)
+
+### Version Check
+
+   Windows                      | Linux                         | Google Colaboratory 
+-------------                   | -------------                 | ------------
+Pending                         | `import cv2`  `cv2.__version__`   | `import cv2`  `cv2.__version__`
+
+
+
+                                
 
 
 # Dump
