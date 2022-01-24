@@ -6,6 +6,8 @@
 -------------                   | -------------                 | ------------
 `python -V` or `python --version`   | `python -V` or `python --version` | `!python -V` or `!python --version`
 
+---
+
 # Pytorch
 
 ### Version Check
@@ -13,6 +15,7 @@
 * `import torch`
 * `print(torch.__version__)`
 
+---
 
 # Anaconda
 
@@ -22,6 +25,7 @@
 -------------                   | -------------                 | ------------
 Pending                         | `conda -V` or `conda --version`   | Pending
 
+---
 
 # OpenCV (Open Source Computer Vision)
 
@@ -31,10 +35,13 @@ Pending                         | `conda -V` or `conda --version`   | Pending
 -------------                   | -------------                 | ------------
 Pending                         | `import cv2`  `cv2.__version__`   | `import cv2`  `cv2.__version__`
 
+---
 
-
+# CUDA (Compute Unified Device Architecture)
+* The architecture of the NVIDIA graphics processing unit (GPU), starting with its GeForce 8 chips. The CUDA programming interface (API) exposes the inherent parallel processing capabilities of the GPU to the developer and enables scientific and financial applications to be run on the graphics GPU chip rather than the CPU.
                                 
 
+---
 
 # Dump
 
