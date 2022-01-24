@@ -17,16 +17,6 @@
 
 ---
 
-# Anaconda
-
-### Version Check
-
-   Windows                      | Linux                         | Google Colaboratory 
--------------                   | -------------                 | ------------
-Pending                         | `conda -V` or `conda --version`   | Pending
-
----
-
 # OpenCV (Open Source Computer Vision)
 
 ### Version Check
