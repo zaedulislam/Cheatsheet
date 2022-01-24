@@ -6,7 +6,12 @@
 -------------                   | -------------                 | ------------
 `python -V` or `python --version`   | `python -V` or `python --version` | `!python -V` or `!python --version`
 
+# Pytorch
 
+### Version Check
+
+* `import torch`
+* `print(torch.__version__)`
 
 
 # Anaconda
