@@ -5,3 +5,7 @@
 1. The first method is to check the version of the Nvidia CUDA Compiler `nvcc`. To do so execute: `nvcc --version`
 
 ---
+
+### Reference
+1. [How to check CUDA version on Ubuntu 20.04 Focal Fossa Linux](https://linuxconfig.org/how-to-check-cuda-version-on-ubuntu-20-04-focal-fossa-linux)
+2. [How to get CUDA Cores count on Linux](https://linuxconfig.org/how-to-get-cuda-cores-count-on-linux)
