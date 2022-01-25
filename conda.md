@@ -26,3 +26,6 @@ By default, environments are installed into the `envs` directory in your conda d
 Pending                         | `conda -V` or `conda --version`   | Pending
 
 ---
+
+### Reference
+1. https://docs.conda.io/projects/conda/en/latest/user-guide/index.html
