@@ -16,6 +16,11 @@ CUDA kernel errors might be asynchronously reported at some other API call,so th
 For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
 ```
 
+Apparently, it turned out that the error occured due to incompatible CUDA version. Following command solved it
+```
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+```
+
 ---
 
 ### Reference
