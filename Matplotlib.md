@@ -14,3 +14,6 @@
 ```
 $ pip install matplotlib
 ```
+
+### Reference
+1. [Chapter 6 Plotting with Matplotlib](https://problemsolvingwithpython.com/06-Plotting-with-Matplotlib/06.00-Introduction/)
