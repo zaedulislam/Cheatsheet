@@ -1,3 +1,9 @@
+<details>
+  <summary>What is Conda?</summary>
+  - Package, dependency and environment management for any language---Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN.
+</details>
+
+
 ### Creating an environment with commands
 By default, environments are installed into the `envs` directory in your conda directory.
 
@@ -28,4 +34,5 @@ Pending                         | `conda -V` or `conda --version`   | Pending
 ---
 
 ### Reference
-1. https://docs.conda.io/projects/conda/en/latest/user-guide/index.html
+1. https://docs.conda.io/projects/conda/en/latest/index.html
+2. https://pypi.org/project/condacolab/
