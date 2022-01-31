@@ -1,12 +1,3 @@
-# Pytorch
-
-### Version Check
-
-* `import torch`
-* `print(torch.__version__)`
-
----
-
 # OpenCV (Open Source Computer Vision)
 
 ### Version Check
