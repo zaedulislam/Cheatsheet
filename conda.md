@@ -9,15 +9,22 @@ By default, environments are installed into the `envs` directory in your conda d
 
 - Use the terminal or an Anaconda Prompt for the following steps:
   1. To create an environment: `conda create --name myenv`
-  2. When conda asks you to proceed, type `y`: `proceed ([y]/n)?`
+  2. When conda asks you to proceed, type `y`: `proceed ([y]/n)?`. This creates the `myenv` environment in `/envs/`. No packages will be installed in this environment.
+  3. To create an environment with a specific version of Python: `conda create -n myenv python=3.8.2`
   
-  This creates the myenv environment in `/envs/`. No packages will be installed in this environment.
+  
 
 ---
 
 ### Activating an environment
 * To activate an environment: `conda activate myenv` [^1]
 [^1]: Replace `myenv` with the environment name or directory path.
+
+---
+
+### Removing an environment
+- To remove an environment, in your terminal window or an Anaconda Prompt, run: `conda remove --name myenv --all`
+- You may instead use `conda env remove --name myenv`.
 
 ---
 
