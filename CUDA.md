@@ -42,7 +42,9 @@ pip install torch==1.7.0+cu110 torchvision==0.8.1+cu110 torchaudio===0.7.0 -f ht
 ```
 
 ### 3. Error
+```
 Enable anomaly detection to find the operation that failed to compute its gradient, with torch.autograd.set_detect_anomaly(True)
+```
 
 ### Solution
 - It was due to imcompatible Pytorch version
