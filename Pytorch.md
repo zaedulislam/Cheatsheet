@@ -42,7 +42,7 @@ torch.matmul(input, other, *, out=None) → Tensor
 ```
 torch.nn.Conv2d(in_channels, out_channels, kernel_size, stride=1, padding=0, dilation=1, groups=1, bias=True, padding_mode='zeros', device=None, dtype=None)
 ```
-- [LINEAR](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html)
+- [LINEAR](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html): Applies a linear transformation to the incoming data.
 ```
 torch.nn.Linear(in_features, out_features, bias=True, device=None, dtype=None)
 ```
@@ -54,6 +54,11 @@ torch.nn.Linear(in_features, out_features, bias=True, device=None, dtype=None)
 >>> output = m(input)
 >>> print(output.size())
 torch.Size([128, 30])
+```
+
+- [TORCH.NN.FUNCTIONAL.MAX_POOL2D](https://pytorch.org/docs/stable/generated/torch.nn.functional.max_pool2d.html): Applies a 2D max pooling over an input signal composed of several input planes.
+```
+torch.nn.functional.max_pool2d(*args, **kwargs)
 ```
 
 ---
