@@ -9,5 +9,6 @@ Python > Terminal: Activate Environment
 ---
 
 ### Reference
-1. https://youtu.be/el39D7rz7K0
+1. [How to Debug PyTorch Source Code - Deep Learning in Python](https://youtu.be/el39D7rz7K0)
 2. [Python debugging in VS Code](https://code.visualstudio.com/docs/python/debugging)
+3. [Visual Studio Code: How debug Python script with arguments](https://stackoverflow.com/questions/51244223/visual-studio-code-how-debug-python-script-with-arguments)
