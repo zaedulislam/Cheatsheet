@@ -41,5 +41,5 @@ Pending                         | `conda -V` or `conda --version`   | Pending
 ---
 
 ### Reference
-1. https://docs.conda.io/projects/conda/en/latest/index.html
+1. https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/index.html
 2. https://pypi.org/project/condacolab/
