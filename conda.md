@@ -40,7 +40,7 @@ Pending                         | `conda -V` or `conda --version`   | Pending
 
 ---
 
-- To install dependencies: `onda install --file requirement.txt`
+- To install dependencies: `conda install --file requirement.txt`
 
 ### Reference
 1. https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/index.html
