@@ -40,6 +40,9 @@ Pending                         | `conda -V` or `conda --version`   | Pending
 
 ---
 
+- To install dependencies: `onda install --file requirement.txt`
+
 ### Reference
 1. https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/index.html
 2. https://pypi.org/project/condacolab/
+3. https://stackoverflow.com/questions/59210762/how-do-you-conda-install-a-library-in-an-environment-created-with-virtualenv
