@@ -1,7 +1,7 @@
 # Python
 
 ### Debugger
-- https://pypi.org/project/ipdb/
+- [IPython debugger](https://pypi.org/project/ipdb/)
 
 ---
 
