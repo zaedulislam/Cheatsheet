@@ -1,5 +1,7 @@
 # Python
 
+- pip list
+
 ### Debugger
 - [IPython debugger](https://pypi.org/project/ipdb/)
 
