@@ -1,3 +1,5 @@
+- conda list
+
 <details>
   <summary>What is Conda?</summary>
   - Package, dependency and environment management for any language---Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN.
