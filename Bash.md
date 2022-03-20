@@ -15,11 +15,24 @@ $ bash ./simple.script
 ```
 $ long ; medium ; short
 ```
+Or
+```
+$ long
+  medium
+  short
+```
 
 3. If you only want to run the next program if the preceding program worked, and all the programs correctly set exit codes, separate them with double-ampersands.
 ```
 $ long && medium && short
 ```
+Or
+```
+$ long && 
+  medium && 
+  short
+```
+
 
 
 # Reference
