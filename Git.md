@@ -1,5 +1,10 @@
  - git clone https://github.com/zaedulislam/Graph_Neural_Networks.git
 
+### Check Current Branch
+```
+git branch
+```
+
 
 ### Change Git Remote URL
 ```
