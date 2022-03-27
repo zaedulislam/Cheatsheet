@@ -4,8 +4,26 @@
 ```
 git branch
 ```
-
-
+## git reset
+### Undo git reset
+Git keeps a log of all ref updates and to view them,
+```
+git reflog
+```
+And the output may look something like below,
+```
+39ab761 HEAD@{0}: reset: moving to HEAD~1
+b55c098 HEAD@{1}: Update argument list ...
+```
+To go back at the commit before reseting,
+```
+git reset HEAD@{1}
+```
+Or,
+```
+git reset b55c098
+```
+---
 ### Change Git Remote URL
 ```
 git remote set-url <remote_name> <remote_url>
