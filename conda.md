@@ -42,6 +42,32 @@ Pending                         | `conda -V` or `conda --version`   | Pending
 
 ---
 
+### Installing packages
+- To install a specific package such as SciPy into an existing environment "gnn":
+```
+conda install --name gnn scipy
+```
+- If you do not specify the environment name, which in this example is done by `--name gnn`, the package installs into the current environment:
+```
+conda install scipy
+```
+- To install a specific version of a package such as SciPy:
+```
+conda install scipy=0.15.0
+```
+- To install multiple packages at once, such as SciPy and cURL:
+```
+conda install scipy curl
+```
+- To install multiple packages at once and specify the version of the package:
+```
+conda install scipy=0.15.0 curl=7.26.0
+```
+- To install a package for a specific Python version:
+```
+conda install scipy=0.15.0 curl=7.26.0 -n py34_env
+```
+
 - To install dependencies: `conda install --file requirement.txt`
 
 ### Reference
