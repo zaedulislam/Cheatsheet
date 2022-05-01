@@ -1,5 +1,32 @@
  - git clone https://github.com/zaedulislam/Graph_Neural_Networks.git
-
+## How to Push an Existing Project to GitHub
+### Step 1: Create a new GitHub Repo
+### Step 2: Initialize Git in the project folder
+#### Initialize the Git Repo
+```
+git init
+```
+#### Add the files to Git index
+```
+git add -A
+```
+#### Commit Added Files
+```
+git commit -m 'Added my project'
+```
+#### Push to GitHub
+```
+git push -u -f origin master
+```
+#### All together
+```
+git init
+git add -A
+git commit -m 'Added my project'
+git remote add origin git@github.com:sammy/my-new-project.git
+git push -u -f origin master
+```
+---
 ### Check Current Branch
 ```
 git branch
@@ -43,3 +70,4 @@ git remote -v
 
 # Reference
 - https://devconnected.com/how-to-change-git-remote-origin/
+- https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github
