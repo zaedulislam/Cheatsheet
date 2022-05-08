@@ -14,6 +14,10 @@ git add -A
 ```
 git commit -m 'Added my project'
 ```
+#### Add new remote origin (in this case, GitHub)
+```
+git remote add origin git@github.com:sammy/my-new-project.git
+```
 #### Push to GitHub
 ```
 git push -u -f origin master
