@@ -1,5 +1,12 @@
 # Pytorch
 
+###### Version Check
+
+* `import torch`
+* `print(torch.__version__)`
+---
+
+
 ## Error & Solution
 
 ### 1. Error: [OSError: undefined symbol: free_gemm_select, version libcublasLt.so.11](https://discuss.pytorch.org/t/oserror-undefined-symbol-free-gemm-select-version-libcublaslt-so-11/113487)
@@ -54,11 +61,3 @@ It could be due to the incompatible version PyTorch and CUDA version. Following 
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
 ```
 
----
-
-###### Version Check
-
-* `import torch`
-* `print(torch.__version__)`
-
----
